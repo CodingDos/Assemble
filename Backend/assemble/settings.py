@@ -77,12 +77,11 @@ WSGI_APPLICATION = 'assemble.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'assemble',
         'HOST': 'localhost',
         'USER': 'assemble_admin',
         'PASSWORD': 'password',
-        'PORT': 3779
     }
 }
 
