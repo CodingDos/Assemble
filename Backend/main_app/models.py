@@ -104,9 +104,15 @@ class User(AbstractBaseUser, PermissionsMixin):
     def __str__(self):
         return self.username
 
+# This funciton is required to have a default user be a team lead in the Team Model
+def get_default_team_leader():
+    try:
+        return User.objects.first()  
+    except ObjectDoesNotExist:
+        return None
 
 class Team(models.Model):
-    team_leader = models.ForeignKey(User, related_name='team_leader', on_delete=models.PROTECT)
+    team_leader = models.ForeignKey(User, related_name='team_leader', on_delete=models.PROTECT,   default=get_default_team_leader)
     team_name = models.CharField(max_length=100)
     members = models.ManyToManyField(User, related_name='team')
 
