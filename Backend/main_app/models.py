@@ -105,8 +105,8 @@ class User(AbstractBaseUser, PermissionsMixin):
         return self.username
 
 
-
 class Team(models.Model):
+    team_leader = models.ForeignKey(User, related_name='team_leader', on_delete=models.PROTECT)
     team_name = models.CharField(max_length=100)
     members = models.ManyToManyField(User, related_name='team')
 
