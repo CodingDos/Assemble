@@ -1,0 +1,1365 @@
+[
+    {
+        "model":"main_app.badge",
+        "pk":"1",
+        "fields":{
+            "name":"Hackathon Winner",
+            "description":"Congratualations on WINNING",
+            "img": "badges/badge3.png"
+        }
+    },
+    {
+        "model": "main_app.hackathon",
+        "pk": 1,
+        "fields": {
+            "name": "Google Hackathon 2024",
+            "description": "Annual tech innovation hackathon hosted by Google for 2024. Create an applicatino that will optimize our search engine using Vertex AI.",
+            "created_date": "2023-01-01T00:00:00Z",
+            "start_date": "2023-06-01T09:00:00Z",
+            "end_date": "2023-06-02T18:00:00Z",
+            "logo": "https://tse4.mm.bing.net/th?id=OIP.aoNGSVIqKHtM-NWf3QrvdwHaHa&pid=Api&P=0&h=220",
+            "team_winner": null,
+            "teams": []
+        }
+    },
+    {
+        "model": "main_app.hackathon",
+        "pk": 2,
+        "fields": {
+            "name": "Microsoft Hackathon 2025",
+            "description": "Annual tech innovation hackathon hosted by Microsoft for 2024. You have total liberty to create anything.",
+            "created_date": "2024-01-01T00:00:00Z",
+            "start_date": "2024-06-01T09:00:00Z",
+            "logo":"http://3.bp.blogspot.com/-omGjHXtXIPA/URx8HdVPZzI/AAAAAAAAAVY/1uf781CUOyk/s1600/microsoft-logo.jpg",
+            "end_date": "2024-06-02T18:00:00Z",
+            "team_winner": null,
+            "teams": []
+        }
+    },
+    {
+        "model": "main_app.hackathon",
+        "pk": 3,
+        "fields": {
+            "name": "Amazon Hackathon 2024",
+            "description": "Annual tech innovation hackathon hosted by Amazon for 2024. You will need to create an app using AI.",
+            "created_date": "2025-01-01T00:00:00Z",
+            "start_date": "2025-06-01T09:00:00Z",
+            "logo":"https://clipartcraft.com/images/amazon-logo-transparent-circle.png",
+            "end_date": "2025-06-02T18:00:00Z",
+            "team_winner": null,
+            "teams": []
+        }
+    },
+    {
+        "model": "main_app.hackathon",
+        "pk": 4,
+        "fields": {
+            "name": "Facebook Hackathon 2024",
+            "description": "Annual tech innovation hackathon hosted by Facebook for 2024. You will need to create an app that will help Gardeners",
+            "created_date": "2026-01-01T00:00:00Z",
+            "start_date": "2026-06-01T09:00:00Z",
+            "logo":"https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19759.png",
+            "end_date": "2026-06-02T18:00:00Z",
+            "team_winner": null,
+            "teams": []
+        }
+    },
+    {
+        "model": "main_app.category",
+        "pk": "1",
+        "fields": {
+            "name": "Languages"
+        }
+    },
+    { 
+        "model": "main_app.category",
+        "pk": "2",
+        "fields": {
+            "name": "Frameworks"
+        }
+    },
+    {
+        "model": "main_app.category",
+        "pk": "3",
+        "fields": {
+            "name": "Libraries"
+        }
+    },
+    {
+        "model": "main_app.category",
+        "pk": "4",
+        "fields": {
+            "name": "Graphics"
+        }
+    },
+    {
+        "model": "main_app.category",
+        "pk": "5",
+        "fields": {
+            "name": "Cloud"
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 1,
+        "fields": {
+            "name": "Python",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 2,
+        "fields": {
+            "name": "JavaScript",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 3,
+        "fields": {
+            "name": "Java",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 4,
+        "fields": {
+            "name": "C++",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 5,
+        "fields": {
+            "name": "Ruby",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 6,
+        "fields": {
+            "name": "Go",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 7,
+        "fields": {
+            "name": "Swift",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 8,
+        "fields": {
+            "name": "TypeScript",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 9,
+        "fields": {
+            "name": "Kotlin",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 10,
+        "fields": {
+            "name": "PHP",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 11,
+        "fields": {
+            "name": "R",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 12,
+        "fields": {
+            "name": "Perl",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 13,
+        "fields": {
+            "name": "C",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 14,
+        "fields": {
+            "name": "Rust",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 15,
+        "fields": {
+            "name": "Scala",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 16,
+        "fields": {
+            "name": "Elixir",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 17,
+        "fields": {
+            "name": "Haskell",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 18,
+        "fields": {
+            "name": "Clojure",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 19,
+        "fields": {
+            "name": "Objective-C",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 20,
+        "fields": {
+            "name": "MATLAB",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 21,
+        "fields": {
+            "name": "Dart",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 22,
+        "fields": {
+            "name": "Lua",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 23,
+        "fields": {
+            "name": "Shell",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 24,
+        "fields": {
+            "name": "F#",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 25,
+        "fields": {
+            "name": "Erlang",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 26,
+        "fields": {
+            "name": "Julia",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 27,
+        "fields": {
+            "name": "VB.NET",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 28,
+        "fields": {
+            "name": "Groovy",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 29,
+        "fields": {
+            "name": "Fortran",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 30,
+        "fields": {
+            "name": "COBOL",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 31,
+        "fields": {
+            "name": "Ada",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 32,
+        "fields": {
+            "name": "Lisp",
+            "category": 1
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 33,
+        "fields": {
+            "name": "Prolog",
+            "category": 1
+        }
+    }, 
+    {
+        "model": "main_app.skill",
+        "pk": 34,
+        "fields": {
+            "name": "Django",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 35,
+        "fields": {
+            "name": "Flask",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 36,
+        "fields": {
+            "name": "Ruby on Rails",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 37,
+        "fields": {
+            "name": "Spring",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 38,
+        "fields": {
+            "name": "Laravel",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 39,
+        "fields": {
+            "name": "Express",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 40,
+        "fields": {
+            "name": "Angular",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 41,
+        "fields": {
+            "name": "React",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 42,
+        "fields": {
+            "name": "Vue.js",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 43,
+        "fields": {
+            "name": "ASP.NET",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 44,
+        "fields": {
+            "name": "Symfony",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 45,
+        "fields": {
+            "name": "Meteor",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 46,
+        "fields": {
+            "name": "Svelte",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 47,
+        "fields": {
+            "name": "Ember.js",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 48,
+        "fields": {
+            "name": "Backbone.js",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 49,
+        "fields": {
+            "name": "CakePHP",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 50,
+        "fields": {
+            "name": "CodeIgniter",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 51,
+        "fields": {
+            "name": "Play",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 52,
+        "fields": {
+            "name": "Next.js",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 53,
+        "fields": {
+            "name": "Nuxt.js",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 54,
+        "fields": {
+            "name": "Gatsby",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 55,
+        "fields": {
+            "name": "Quasar",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 56,
+        "fields": {
+            "name": "Phoenix",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 57,
+        "fields": {
+            "name": "NestJS",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 58,
+        "fields": {
+            "name": "Blazor",
+            "category": 2
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 59,
+        "fields": {
+            "name": "NumPy",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 60,
+        "fields": {
+            "name": "Pandas",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 61,
+        "fields": {
+            "name": "Matplotlib",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 62,
+        "fields": {
+            "name": "SciPy",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 63,
+        "fields": {
+            "name": "TensorFlow",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 64,
+        "fields": {
+            "name": "Keras",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 65,
+        "fields": {
+            "name": "PyTorch",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 66,
+        "fields": {
+            "name": "OpenCV",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 67,
+        "fields": {
+            "name": "NLTK",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 68,
+        "fields": {
+            "name": "BeautifulSoup",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 69,
+        "fields": {
+            "name": "Requests",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 70,
+        "fields": {
+            "name": "D3.js",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 71,
+        "fields": {
+            "name": "Lodash",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 72,
+        "fields": {
+            "name": "Moment.js",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 73,
+        "fields": {
+            "name": "jQuery",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 74,
+        "fields": {
+            "name": "Axios",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 75,
+        "fields": {
+            "name": "Chart.js",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 76,
+        "fields": {
+            "name": "Redux",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 77,
+        "fields": {
+            "name": "Redux Saga",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 78,
+        "fields": {
+            "name": "RxJS",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 79,
+        "fields": {
+            "name": "Bootstrap",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 80,
+        "fields": {
+            "name": "Tailwind CSS",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 81,
+        "fields": {
+            "name": "Ant Design",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 82,
+        "fields": {
+            "name": "Styled Components",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 83,
+        "fields": {
+            "name": "Emotion",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 84,
+        "fields": {
+            "name": "Material-UI",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 85,
+        "fields": {
+            "name": "Three.js",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 86,
+        "fields": {
+            "name": "Highcharts",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 87,
+        "fields": {
+            "name": "Plotly",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 88,
+        "fields": {
+            "name": "Seaborn",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 89,
+        "fields": {
+            "name": "Bokeh",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 90,
+        "fields": {
+            "name": "Altair",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 91,
+        "fields": {
+            "name": "ggplot2",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 92,
+        "fields": {
+            "name": "Scikit-learn",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 93,
+        "fields": {
+            "name": "LightGBM",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 94,
+        "fields": {
+            "name": "XGBoost",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 95,
+        "fields": {
+            "name": "CatBoost",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 96,
+        "fields": {
+            "name": "SpaCy",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 97,
+        "fields": {
+            "name": "OpenGL",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 98,
+        "fields": {
+            "name": "VTK",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 99,
+        "fields": {
+            "name": "Qt",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 100,
+        "fields": {
+            "name": "PyQt",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 101,
+        "fields": {
+            "name": "Tkinter",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 102,
+        "fields": {
+            "name": "wxWidgets",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 103,
+        "fields": {
+            "name": "GTK",
+            "category": 3
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 104,
+        "fields": {
+            "name": "Figma",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 105,
+        "fields": {
+            "name": "Adobe Photoshop",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 106,
+        "fields": {
+            "name": "Adobe Illustrator",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 107,
+        "fields": {
+            "name": "Sketch",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 108,
+        "fields": {
+            "name": "Adobe XD",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 109,
+        "fields": {
+            "name": "InVision",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 110,
+        "fields": {
+            "name": "Axure RP",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 111,
+        "fields": {
+            "name": "Balsamiq",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 112,
+        "fields": {
+            "name": "Marvel",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 113,
+        "fields": {
+            "name": "Affinity Designer",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 114,
+        "fields": {
+            "name": "CorelDRAW",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 115,
+        "fields": {
+            "name": "Inkscape",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 116,
+        "fields": {
+            "name": "GIMP",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 117,
+        "fields": {
+            "name": "Canva",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 118,
+        "fields": {
+            "name": "Blender",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 119,
+        "fields": {
+            "name": "Maya",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 120,
+        "fields": {
+            "name": "3ds Max",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 121,
+        "fields": {
+            "name": "Cinema 4D",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 122,
+        "fields": {
+            "name": "ZBrush",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 123,
+        "fields": {
+            "name": "Substance Painter",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 124,
+        "fields": {
+            "name": "Unity",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 125,
+        "fields": {
+            "name": "Unreal Engine",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 126,
+        "fields": {
+            "name": "AutoCAD",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 127,
+        "fields": {
+            "name": "Rhinoceros 3D",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 128,
+        "fields": {
+            "name": "SketchUp",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 129,
+        "fields": {
+            "name": "SolidWorks",
+            "category": 4
+        }
+    },
+    {
+        "model": "main_app.category",
+        "pk": 5,
+        "fields": {
+            "name": "Cloud Platforms & Tools"
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 130,
+        "fields": {
+            "name": "Amazon Web Services (AWS)",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 131,
+        "fields": {
+            "name": "Microsoft Azure",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 132,
+        "fields": {
+            "name": "Google Cloud Platform (GCP)",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 133,
+        "fields": {
+            "name": "IBM Cloud",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 134,
+        "fields": {
+            "name": "Oracle Cloud",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 135,
+        "fields": {
+            "name": "Alibaba Cloud",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 136,
+        "fields": {
+            "name": "Salesforce",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 137,
+        "fields": {
+            "name": "Heroku",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 138,
+        "fields": {
+            "name": "DigitalOcean",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 139,
+        "fields": {
+            "name": "Linode",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 140,
+        "fields": {
+            "name": "Kubernetes",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 141,
+        "fields": {
+            "name": "Docker",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 142,
+        "fields": {
+            "name": "Terraform",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 143,
+        "fields": {
+            "name": "Ansible",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 144,
+        "fields": {
+            "name": "Chef",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 145,
+        "fields": {
+            "name": "Puppet",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 146,
+        "fields": {
+            "name": "OpenStack",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 147,
+        "fields": {
+            "name": "Cloud Foundry",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 148,
+        "fields": {
+            "name": "Red Hat OpenShift",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 149,
+        "fields": {
+            "name": "VMware vSphere",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 150,
+        "fields": {
+            "name": "Citrix",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 151,
+        "fields": {
+            "name": "Rackspace",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 152,
+        "fields": {
+            "name": "Pivotal Cloud Foundry",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 153,
+        "fields": {
+            "name": "Cloudflare",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 154,
+        "fields": {
+            "name": "Fastly",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 155,
+        "fields": {
+            "name": "Netlify",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 156,
+        "fields": {
+            "name": "Vercel",
+            "category": 5
+        }
+    },
+    {
+        "model": "main_app.skill",
+        "pk": 157,
+        "fields": {
+            "name": "Microsoft Power Platform",
+            "category": 5
+        }
+    }
+]
