@@ -14,7 +14,7 @@ class UserRUD(generics.RetrieveUpdateDestroyAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
-class HackathonList(generics.ListView):
+class HackathonList(generics.ListAPIView):
     queryset = Hackathon.objects.all()
     serializer_class = HackathonSerializer
 
@@ -30,6 +30,6 @@ class TeamRUD(generics.RetrieveUpdateDestroyAPIView):
     queryset = Team.objects.all()
     serializer_class = TeamSerializer
 
-class SkillList(generics.ListView):
+class SkillList(generics.ListAPIView):
     queryset = Skill.objects.all()
     serializer_class = SkillSerializer
