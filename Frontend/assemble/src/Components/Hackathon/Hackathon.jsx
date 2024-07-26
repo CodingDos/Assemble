@@ -6,6 +6,9 @@ function Hackathon({hackathon}) {
         <main>
           <h1>{hackathon.name}</h1>
           <p>{hackathon.description}</p>
+          {hackathon.team_winner && (
+            <h2>The Winner of this hackathon is: {hackathon.team_winner.team_name}</h2>
+          )}
           <hr />
           <time>Created on: {hackathon.created_date}</time>
           <time>Hackathon starts on: {hackathon.start_date}</time>
@@ -22,6 +25,9 @@ Hackathon.propTypes = {
         created_date:PropTypes.string.isRequired,
         start_date: PropTypes.string.isRequired,
         end_date: PropTypes.string.isRequired,
+        team_winner: PropTypes.shape({
+            team_name: PropTypes.string.isRequired
+        })
     })
 }
 
