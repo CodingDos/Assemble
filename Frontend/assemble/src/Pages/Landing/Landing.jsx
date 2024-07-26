@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { useEffect } from "react"
+import Hackathon from "../../Components/Hackathon/Hackathon"
 import axios from 'axios'
 
 function Landing() {
@@ -24,12 +25,11 @@ function Landing() {
   return (
     <div>
       <h1>Hackathons Going On</h1>
-      {/* {hackathons.map((hackathon) => (
+      {hackathons.map((hackathon) => (
         <div key={hackathon._id}>
-          <h1>{hackathon.name}</h1>
-          <h2>{hackathon.description}</h2>
+         <Hackathon hackathon={hackathon}/>
         </div>
-      ))} */}
+      ))}
     </div>
   )
 }
