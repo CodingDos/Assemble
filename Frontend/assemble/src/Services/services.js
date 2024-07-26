@@ -20,6 +20,27 @@ export const getOneUser = async (id) => {
     }
 }
 
+export const signOut = async () => {
+    try {
+        let sessionInfo = sessionStorage.getItem(session)
+        if(sessionInfo){
+            sessionStorage.removeItem(key, value)
+        } else {
+            throw error
+        }
+    } catch (error) {
+        throw error
+    }
+}
+
+export const signIn = async (username, password) => {
+    try {
+        
+    } catch (error) {
+        
+    }
+}
+
 //Hackathon Section
 
 export const getHackathons = async () => {
