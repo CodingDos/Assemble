@@ -92,7 +92,7 @@ function Login(){
     const signIn = async(e) => {
         e.preventDefault()
         try {
-            const response = await axios.post('/users/')
+            const response = await axios.post('/login/')
             console.log(response)
         } catch (error) {
             console.error("Error trying to login: ", error)
