@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function Team({team}) {
+function Team({team, onSelect}) {
   return (
     <div>
       <main>
@@ -11,6 +11,7 @@ function Team({team}) {
             <li key={member._id}>{member.username}</li>
           )) }
         </ul>
+        <button onClick={onSelect}>View Team</button>
       </main>
     </div>
   )
@@ -21,7 +22,8 @@ Team.propTypes = {
       team_name: PropTypes.string.isRequired,
       team_leader: PropTypes.string.isRequired,
       members:PropTypes.string.isRequired,
-  })
+  }),
+  onSelect: PropTypes.bool
 }
 
 export default Team
